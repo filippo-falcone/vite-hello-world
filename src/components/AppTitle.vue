@@ -4,13 +4,13 @@
         data() {
             return {
                 title: '',
-                visibileClass: 'visible'
+                visibleClass: 'visible'
             }
         },
         methods: {
             helloWorld(){
                 this.title = 'Hello World';
-                this.visibileClass = '';
+                this.visibleClass = '';
             }
           }
     }
@@ -18,7 +18,7 @@
 
 <template>
     <h1>{{ title }}</h1>
-    <button :class="visibileClass" @click="helloWorld">Saluta</button>
+    <button :class="visibleClass" @click="helloWorld">Saluta</button>
 </template>
 
 <style scoped>
