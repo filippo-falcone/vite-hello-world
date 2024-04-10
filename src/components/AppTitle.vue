@@ -19,7 +19,7 @@
     <button @click="helloWorld">Saluta</button>
 </template>
 
-<style scope>
+<style scoped>
     h1{
         font-size: 4.375rem;
     }
