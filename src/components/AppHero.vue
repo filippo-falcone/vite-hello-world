@@ -22,12 +22,13 @@
         background-image: url(../assets/img/dragon-quest-xi-s.jpg);
         background-size: cover;
         background-position: center;
-        color: #ffffff;
+        color: darkblue;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+    
     h1 {
         font-size: 3.125rem;
     }

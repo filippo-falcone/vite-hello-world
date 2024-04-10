@@ -3,12 +3,14 @@
         name: 'AppTitle',
         data() {
             return {
-                title: ''
+                title: '',
+                visibileClass: 'visible'
             }
         },
         methods: {
             helloWorld(){
                 this.title = 'Hello World';
+                this.visibileClass = '';
             }
           }
     }
@@ -16,13 +18,15 @@
 
 <template>
     <h1>{{ title }}</h1>
-    <button @click="helloWorld">Saluta</button>
+    <button :class="visibileClass" @click="helloWorld">Saluta</button>
 </template>
 
 <style scoped>
     h1{
         font-size: 4.375rem;
+        margin-bottom: 200px
     }
+
     button {
         width: 6.25rem;
         height: 3.125rem;
@@ -32,5 +36,10 @@
         font-size: 1.25rem;
         cursor: pointer;
         flex-shrink: 0;
+        display: none;
+    }
+
+    .visible{
+        display: block;
     }
 </style>
