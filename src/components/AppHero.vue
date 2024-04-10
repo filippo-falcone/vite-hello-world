@@ -19,7 +19,7 @@
         width: 62.5rem;
         height: 31.25rem;
         margin: .625rem auto;
-        background-image: url(../assets/dragon-quest-xi-s.jpg);
+        background-image: url(../assets/img/dragon-quest-xi-s.jpg);
         background-size: cover;
         background-position: center;
         color: #ffffff;
